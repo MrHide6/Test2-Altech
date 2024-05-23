@@ -1,0 +1,22 @@
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  padding-top: 60px; /* Tinggi navbar */
+}
+
+.section {
+  height: 100vh; /* Setiap bagian mengisi seluruh tinggi layar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../src/Image/1.png");
+}
+
+.nav-item{
+  cursor: pointer;
+}
